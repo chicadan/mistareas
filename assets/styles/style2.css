@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+
+header{
+    background: url(../img/design1_image2.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 250px; 
+    position: relative;
+    top:100px;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+    z-index: 1;
+}
+
+h1 {
+    font-size:70px;
+    font-weight:600;
+    font-style: italic;
+    color:#0d0d0d;
+    padding: 10px;
+    position: relative;
+    top:-85px;
+}
+
+a:active {
+    color: white;
+    background-color: #63a69a;
+}
+
+nav a {
+    position: relative;
+    left: 940px;
+    top: -160px;
+    padding: 5px 15px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #0d0d0d;
+    box-shadow: 2px 5px gray;
+    background-color: blue;
+    margin-inline: 5px;
+    justify-items: center;
+}
+
+
+h2 {
+    background-color: white;
+    color:#0d0d0d;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: bolder;
+    border: 1px solid #0d0d0d;
+    position: relative;
+    top:70px;
+}
+
+section {
+    display: inline-block;
+    position: relative;
+    left: 330px;
+    top: 100px;
+    margin-right: 400px;
+}
+
+h3 {
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 700;
+}
+
+p {
+    font-size:20px;
+    margin-left: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+
